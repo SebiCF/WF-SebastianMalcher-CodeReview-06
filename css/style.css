@@ -1,0 +1,76 @@
+body {
+  background-color: rgba(34, 33, 33, 0.9);
+  line-height: 1.2 !important;
+}
+
+body .blog-header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.2))), url("../img/space.jpg");
+  background-image: linear-gradient(rgba(50, 50, 50, 0.2)), url("../img/space.jpg");
+  background-position-y: -137px;
+  background-size: 1200px;
+  background-repeat: no-repeat;
+}
+
+body .blog-header-logo {
+  background-image: linear-gradient(50deg, rgba(20, 20, 20, 0.9) 33%, rgba(240, 240, 240, 0.8) 88%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.5);
+}
+
+body .navbar {
+  background: rgba(23, 19, 45, 0.69);
+  color: rgba(177, 177, 177, 0.9);
+}
+
+body .carousel-inner {
+  border: 3px solid rgba(0, 0, 0, 0.4);
+}
+
+body .sliderImg {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.2)));
+  background-image: linear-gradient(rgba(50, 50, 50, 0.2));
+}
+
+body content {
+  background-color: rgba(30, 30, 30, 0.8);
+  border-radius: 1%;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22), 0 -14px 28px rgba(0, 0, 0, 0.25), 0 0px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22), 0 -14px 28px rgba(0, 0, 0, 0.25), 0 0px 10px rgba(0, 0, 0, 0.22);
+}
+
+body content .contentCard {
+  height: 100%;
+  margin: 0% -3% 0% -3%;
+  background-color: rgba(0, 0, 0, 0.338);
+  color: rgba(180, 180, 180, 0.9);
+  border-radius: 5%;
+  border: 7px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22), 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22);
+          box-shadow: 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22), 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22);
+}
+
+body content .contentCard .learnMoreBtn {
+  -webkit-box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.solarObjectDetails {
+  visibility: hidden;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.338);
+  border: 7px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22), 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22);
+          box-shadow: 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22), 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-item {
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+  }
+}
+/*# sourceMappingURL=style.css.map */
