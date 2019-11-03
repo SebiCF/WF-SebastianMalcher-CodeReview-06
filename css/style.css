@@ -66,11 +66,26 @@ body content .contentCard .learnMoreBtn {
   border: 7px solid rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22), 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22);
           box-shadow: 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22), 7px 14px 10px rgba(0, 0, 0, 0.25), 7px 10px 8px rgba(0, 0, 0, 0.22);
+  -webkit-transition: width 1s ease-in-out;
+  transition: width 1s ease-in-out;
+}
+
+.imgCollapse {
+  background-color: rgba(0, 0, 0, 0.338);
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 3px 9px 10px rgba(0, 0, 0, 0.25), 3px 6px 8px rgba(0, 0, 0, 0.22), 3px 9px 10px rgba(0, 0, 0, 0.25), 3px 6px 8px rgba(0, 0, 0, 0.22);
+          box-shadow: 3px 9px 10px rgba(0, 0, 0, 0.25), 3px 6px 8px rgba(0, 0, 0, 0.22), 3px 9px 10px rgba(0, 0, 0, 0.25), 3px 6px 8px rgba(0, 0, 0, 0.22);
+  border-radius: 1%;
+}
+
+.collapsing {
+  transition: height 1s ease-in-out;
+  -webkit-transition: height 1s ease-in-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
-    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
   }
 }
 /*# sourceMappingURL=style.css.map */
