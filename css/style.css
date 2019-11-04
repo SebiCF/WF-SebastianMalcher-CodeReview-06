@@ -43,6 +43,7 @@ body content {
 
 body content .contentCard {
   height: 100%;
+  line-height: 1.1;
   margin: 0% -3% 0% -3%;
   background-color: rgba(0, 0, 0, 0.338);
   color: rgba(180, 180, 180, 0.9);
